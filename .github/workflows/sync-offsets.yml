@@ -1,0 +1,34 @@
+name: Sync corrected offsets
+on:
+  schedule:
+    - cron: '7,27,47 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - offsets/corrections.json
+      - tools/sync_offsets.py
+      - .github/workflows/sync-offsets.yml
+permissions:
+  contents: write
+concurrency:
+  group: corrected-offsets
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python tools/sync_offsets.py
+      - name: Publish validated snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add offsets/offsets.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update corrected Roblox offsets'
+            git push
+          fi
