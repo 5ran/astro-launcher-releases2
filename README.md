@@ -32,3 +32,21 @@ Astro Launcher 2.0.2 uses the GitHub snapshot for Get Latest, retains a local
 backup, and keeps existing offsets if downloads fail. Customers must restart
 running macros after updating offsets. Existing launchers need the 2.0.2 update
 before their Get Latest uses this feed.
+
+### Current build evidence and scope
+
+For version-02c37bc51a384b8f, UI3 validation completed three full eight-phase
+cycles on three ImageLabels (run-1790853533680.json): AbsolutePosition 252,
+AbsoluteSize 260, AbsoluteRotation 216, BorderColor3 1340, ZIndex 1428,
+and ImageColor3 2696. AbsolutePosition stores screen-space coordinates;
+conversion to the Luau property requires the current live GUI inset.
+
+WorldPivotData 232 (0xE8) passed five full 13-phase cycles on three models in
+one Player process (run-1790854339781.json). Current-build getter/setter
+inspection at RVA 0xF29DE9 / 0xF29EE5 confirms field 0xE8, low-two-bit mask,
+48-byte payload, and the associated property descriptor named WorldPivot.
+This is a tagged pointer, NOT an inline CFrame offset. Supported case:
+explicitly assigned model pivot, no PrimaryPart, tag 2. Consumers must reread
+and validate the pointer and matrix. Other tags/unassigned fallback layouts
+are not covered; fresh-process repetitions for this new build remain outstanding.
+No Model.WorldPivot inline offset is published.
