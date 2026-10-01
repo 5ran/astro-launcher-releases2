@@ -1,6 +1,11 @@
 {
   "version-02c37bc51a384b8f": {
     "GuiBase2D.AbsoluteSize": 260,
-    "GuiObject.ImageColor3": 2696
+    "GuiObject.ImageColor3": 2696,
+    "GuiBase2D.AbsolutePosition": 252,
+    "GuiBase2D.AbsoluteRotation": 216,
+    "GuiObject.BorderColor3": 1340,
+    "GuiObject.ZIndex": 1428,
+    "Model.WorldPivotData": 232
   }
 }

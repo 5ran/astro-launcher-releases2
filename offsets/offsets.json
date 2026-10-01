@@ -257,7 +257,7 @@
       "HumanoidStateID": 32,
       "FloorMaterial": 372,
       "TargetPoint": 316,
-      "PlatformStatePointer": 336481409
+      "PlatformStatePointer": 3138196374
     },
     "Seat": {
       "Occupant": 520
@@ -334,7 +334,8 @@
     },
     "Model": {
       "PrimaryPart": 584,
-      "Scale": 308
+      "Scale": 308,
+      "WorldPivotData": 232
     },
     "SpecialMesh": {
       "Scale": 180,
