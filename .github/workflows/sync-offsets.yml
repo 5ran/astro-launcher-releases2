@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - offsets/corrections.json
+      - offsets/verified-builds.json
       - tools/sync_offsets.py
       - .github/workflows/sync-offsets.yml
 permissions:

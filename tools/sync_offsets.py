@@ -7,7 +7,7 @@ import urllib.request
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SOURCES = ("https://offsets.imtheo.lol/offsets.json", "https://offsets.femboythighs.org/offsets.json")
 
-def corrected(data, corrections):
+def corrected(data, corrections, verified_versions=()):
     version = data.get("Roblox Version", "")
     if not isinstance(version, str) or not re.fullmatch(r"version-[0-9a-f]{16,64}", version):
         raise ValueError("Invalid Roblox version")
@@ -22,10 +22,12 @@ def corrected(data, corrections):
         if type(value) is not int or value <= 0 or value > 65536 or group not in offsets:
             raise ValueError("Invalid correction")
         offsets[group][name] = value
+    data["Astro Verification"] = {"Version": version, "Verified": version in verified_versions}
     return data
 
 def main():
     corrections = json.loads((ROOT / "offsets/corrections.json").read_text())
+    verified_versions = json.loads((ROOT / "offsets/verified-builds.json").read_text())
     errors = []
     for url in SOURCES:
         try:
@@ -34,7 +36,7 @@ def main():
                 raw = response.read(2_000_001)
             if len(raw) > 2_000_000:
                 raise ValueError("Oversized response")
-            data = corrected(json.loads(raw), corrections)
+            data = corrected(json.loads(raw), corrections, verified_versions)
             output = ROOT / "offsets/offsets.json"
             temporary = output.with_suffix(".tmp")
             temporary.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")

@@ -547,5 +547,9 @@
       "Faces": 48,
       "FacesEnd": 56
     }
+  },
+  "Astro Verification": {
+    "Version": "version-02c37bc51a384b8f",
+    "Verified": true
   }
 }
