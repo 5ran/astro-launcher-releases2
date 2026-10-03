@@ -1,0 +1,249 @@
+{
+    "schemaVersion":  1,
+    "generatedAt":  "2026-10-03T09:56:52Z",
+    "launcher":  {
+                     "latestVersion":  "2.0.5",
+                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.5.exe",
+                     "sha256":  "3D8F5C2BA2757026A13337E1773AF86A3F959A06CC65AA2AF1EA1C6DA9FD4D13",
+                     "fileName":  "Astro Launcher.exe",
+                     "releaseNotes":  "Adds trusted macro download fallback, missing-offset recovery and specific startup diagnostics.",
+                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.5/Astro-Launcher-2.0.5.exe",
+                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.5/Astro-Launcher-2.0.5.exe"
+                 },
+    "macros":  [
+                   {
+                       "id":  "grand-piece",
+                       "name":  "Grand Piece",
+                       "shortName":  "GPO",
+                       "description":  "Automate trick-or-treating in Grand Piece.",
+                       "category":  "Event macro",
+                       "latestVersion":  "1.0.2",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/grand-piece/1.0.2/Grand-Piece-1.0.2.exe",
+                       "sha256":  "BBB98BD6302E4AA17D6D1D6EAFB907B7DB148C78CDE4FD0A4AAD310A23FE7C76",
+                       "fileName":  "Grand Piece.exe",
+                       "imageUrl":  "https://ae-storefront.vercel.app/launcher/grand-piece.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Updated Grand Piece to the latest supplied build.",
+                       "featured":  true,
+                       "sortOrder":  11,
+                       "legacyFileNames":  [
+                                               "GpoTrickOrTreat.exe"
+                                           ],
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/grand-piece-v1.0.2/Grand-Piece-1.0.2.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/grand-piece/1.0.2/Grand-Piece-1.0.2.exe"
+                   },
+                   {
+                       "id":  "anime-expeditions",
+                       "name":  "Anime Expeditions",
+                       "shortName":  "AE",
+                       "description":  "Create, save and run unit placement macros for Anime Expeditions.",
+                       "category":  "Strategy macro",
+                       "latestVersion":  "1.0.10",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/anime-expeditions/1.0.10/AE-1.0.10.exe",
+                       "sha256":  "F4F3C956881CC1FB6BFE29A6D6CF2D18C976CE0242993C1C0CC7E1735E5BB2A1",
+                       "fileName":  "AE.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/anime-expeditions.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Fixes Auto Fishing tracking across 720p, 1080p, 1440p, 4K, and windowed Roblox by scaling reel-bar, fish-marker, and control-zone detection to the live viewport.",
+                       "featured":  true,
+                       "sortOrder":  1,
+                       "legacyFileNames":  [
+                                               "AE.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/anime-expeditions/1.0.10/AE-1.0.10.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/anime-expeditions-v1.0.10/AE-1.0.10.exe"
+                   },
+                   {
+                       "id":  "fisch",
+                       "name":  "Fisch",
+                       "shortName":  "F",
+                       "description":  "Fish, appraise, track hunts and use focused utility add-ons for Fisch.",
+                       "category":  "Fishing macro",
+                       "latestVersion":  "1.1.23",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/fisch/1.1.23/Fisch-1.1.23.exe",
+                       "sha256":  "3E442C78699BD47C5AC9D4C44BEE2A9AC10903B8784F124A6CA944C456F05E19",
+                       "fileName":  "Fisch.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/fisch.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Updated to the latest Fisch 1.1.23 build.",
+                       "featured":  true,
+                       "sortOrder":  2,
+                       "legacyFileNames":  [
+                                               "Fisch.exe",
+                                               "Fisch-Lullaby.exe"
+                                           ],
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/fisch-v1.1.23/Fisch-1.1.23.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/fisch/1.1.23/Fisch-1.1.23.exe"
+                   },
+                   {
+                       "id":  "clean-and-dig",
+                       "name":  "Clean \u0026 Dig",
+                       "shortName":  "C\u0026D",
+                       "description":  "Run dig routes, handle full backpacks and sell inventory automatically.",
+                       "category":  "Digging macro",
+                       "latestVersion":  "1.0.1",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/clean-and-dig/1.0.1/Clean-and-Dig-1.0.1.exe",
+                       "sha256":  "4C8AC0334774B43A5A20898CD82FEAE669F3F2FC533709876B9E255693D604EC",
+                       "fileName":  "Clean \u0026 Dig.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/clean-and-dig.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Publishes the latest protected Clean \u0026 Dig build with the current backpack, sell-route, hub-click, and recovery fixes.",
+                       "featured":  true,
+                       "sortOrder":  3,
+                       "legacyFileNames":  [
+                                               "DigAndClean.exe",
+                                               "DigAndClean-Astro.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/clean-and-dig/1.0.1/Clean-and-Dig-1.0.1.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/clean-and-dig-v1.0.1/Clean-and-Dig-1.0.1.exe"
+                   },
+                   {
+                       "id":  "boss-fish",
+                       "name":  "Heavy Weight Fishing",
+                       "shortName":  "HWF",
+                       "description":  "Keep the boss-fishing marker centred with configurable controls and saved positioning.",
+                       "category":  "Fishing macro",
+                       "latestVersion":  "1.0.1",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/boss-fish/1.0.1/Boss-Fish-1.0.1.exe",
+                       "sha256":  "0AFB0B800AE94E44F6BD92D2F1FB3A270071DCF155F30564C50D20A3EDC907FB",
+                       "fileName":  "Heavy Weight Fishing.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/boss-fish.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Fixes minigame detection with shared Astro offsets, adds a safe embedded offset fallback and diagnostic logging, and strengthens release protection.",
+                       "featured":  true,
+                       "sortOrder":  4,
+                       "legacyFileNames":  [
+                                               "BossFish.exe",
+                                               "Boss Fish.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/boss-fish/1.0.1/Boss-Fish-1.0.1.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/boss-fish-v1.0.1/Boss-Fish-1.0.1.exe"
+                   },
+                   {
+                       "id":  "catch-1-billion-ducks",
+                       "name":  "Catch 1 Billion Ducks",
+                       "shortName":  "DUCK",
+                       "description":  "Farm fallen ducks or automatically aim and attack flying ducks and bosses.",
+                       "category":  "Duck hunting macro",
+                       "latestVersion":  "1.0.2",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/catch-1-billion-ducks/1.0.2/Catch-1-Billion-Ducks-1.0.2.exe",
+                       "sha256":  "DDF142DDB18AE9009EB86F5A63F849450735BB2B18C651AE08A950059842EB77",
+                       "fileName":  "Catch 1 Billion Ducks.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/catch-1-billion-ducks.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Improves boss tracking by using the matching live numbered health bar as its lifecycle gate, allowing legitimate banking and diving while releasing the lock immediately when the boss dies.",
+                       "featured":  true,
+                       "sortOrder":  5,
+                       "legacyFileNames":  [
+                                               "Duck.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/catch-1-billion-ducks/1.0.2/Catch-1-Billion-Ducks-1.0.2.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/catch-1-billion-ducks-v1.0.2/Catch-1-Billion-Ducks-1.0.2.exe"
+                   },
+                   {
+                       "id":  "search-for-the-needle",
+                       "name":  "Search For The Needle",
+                       "shortName":  "NEEDLE",
+                       "description":  "Find live needles and diamonds, or automate hay farming and upgrades.",
+                       "category":  "Collection macro",
+                       "latestVersion":  "1.0.0",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/search-for-the-needle/1.0.0/Search-For-The-Needle-1.0.0.exe",
+                       "sha256":  "9069F23C94DCDE3B158BB48F4899708530FEE0CFB50FB8744A3BF493295D4996",
+                       "fileName":  "Search For The Needle.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/search-for-the-needle.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Initial protected release with live needle and diamond highlighting, automated hay farming and upgrades, shared Astro offsets, and Astro authorization.",
+                       "featured":  true,
+                       "sortOrder":  6,
+                       "legacyFileNames":  [
+                                               "NeedleInHay.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/search-for-the-needle/1.0.0/Search-For-The-Needle-1.0.0.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/search-for-the-needle-v1.0.0/Search-For-The-Needle-1.0.0.exe"
+                   },
+                   {
+                       "id":  "clean-all-the-leaves",
+                       "name":  "Clean all the leaves!",
+                       "shortName":  "LEAF",
+                       "description":  "Collect leaves, sell full bags, and purchase affordable upgrades automatically.",
+                       "category":  "Collection macro",
+                       "latestVersion":  "1.0.0",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/clean-all-the-leaves/1.0.0/Clean-All-The-Leaves-1.0.0.exe",
+                       "sha256":  "ABF5A9FA9072C2F7A4464B9CD80382404482B2DE7248AFA3022948BDDAEDBE13",
+                       "fileName":  "Clean all the leaves.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/clean-all-the-leaves.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Initial protected release with automatic leaf collection, full-bag selling, upgrades, shared Astro offsets, and Astro authorization.",
+                       "featured":  true,
+                       "sortOrder":  7,
+                       "legacyFileNames":  [
+                                               "Leaf.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/clean-all-the-leaves/1.0.0/Clean-All-The-Leaves-1.0.0.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/clean-all-the-leaves-v1.0.0/Clean-All-The-Leaves-1.0.0.exe"
+                   },
+                   {
+                       "id":  "blade-ball",
+                       "name":  "Blade Ball",
+                       "shortName":  "BB",
+                       "description":  "Automatically parry incoming balls with passive and movement-enabled macro modes.",
+                       "category":  "Combat macro",
+                       "latestVersion":  "0.13.16",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/blade-ball/0.13.16/Blade-Ball-0.13.16.exe",
+                       "sha256":  "BE5D151BC1FC63A6E4A36E4FDB86F02CEF257BA345E763CCFD0C0B77E52BCF70",
+                       "fileName":  "Blade Ball.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/blade-ball.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Publishes the latest Blade Ball build (0.13.16) for Astro Launcher customers.",
+                       "featured":  true,
+                       "sortOrder":  8,
+                       "legacyFileNames":  [
+                                               "BladeBall.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/blade-ball/0.13.16/Blade-Ball-0.13.16.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/blade-ball-v0.13.16/Blade-Ball-0.13.16.exe"
+                   },
+                   {
+                       "id":  "murder-mystery-2",
+                       "name":  "Murder Mystery 2",
+                       "shortName":  "MM2",
+                       "description":  "Track roles, collect coins and automate rounds in Murder Mystery 2.",
+                       "category":  "Round automation",
+                       "latestVersion":  "2.7.1",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/murder-mystery-2/2.7.1/Murder-Mystery-2-2.7.1.exe",
+                       "sha256":  "6B3082A9CA4903B41303A7B23A1DB9D6E748645B96B62391147C785E6CE7BB7A",
+                       "fileName":  "Murder Mystery 2.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/murder-mystery-2.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Updates Murder Mystery 2 to the latest supplied build with the embedded prerecorded route network.",
+                       "featured":  true,
+                       "sortOrder":  9,
+                       "legacyFileNames":  [
+                                               "MM2.exe"
+                                           ],
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/murder-mystery-2/2.7.1/Murder-Mystery-2-2.7.1.exe",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/murder-mystery-2-v2.7.1/Murder-Mystery-2-2.7.1.exe"
+                   },
+                   {
+                       "id":  "project-slayers-2",
+                       "name":  "Project Slayers 2",
+                       "shortName":  "PS2",
+                       "description":  "Automate fishing, catches and recasting in Project Slayers 2.",
+                       "category":  "Fishing macro",
+                       "latestVersion":  "1.0.14",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/project-slayers-2/1.0.14/Project-Slayers-2-1.0.14.exe",
+                       "sha256":  "61015E62F85D48237696258764CD12F66E85021E36C9E502201A585EC9995782",
+                       "fileName":  "Project Slayers 2.exe",
+                       "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/project-slayers-2.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Updated Project Slayers 2 to the latest supplied build dated October 2, 2026.",
+                       "featured":  true,
+                       "sortOrder":  10,
+                       "legacyFileNames":  [
+                                               "SlayerFishing.exe"
+                                           ],
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/project-slayers-2-v1.0.14/Project-Slayers-2-1.0.14.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/project-slayers-2/1.0.14/Project-Slayers-2-1.0.14.exe"
+                   }
+               ]
+}
