@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-03T09:56:52Z",
+    "generatedAt":  "2026-10-03T10:26:15Z",
     "launcher":  {
-                     "latestVersion":  "2.0.5",
-                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.5.exe",
-                     "sha256":  "3D8F5C2BA2757026A13337E1773AF86A3F959A06CC65AA2AF1EA1C6DA9FD4D13",
+                     "latestVersion":  "2.0.6",
+                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.6.exe",
+                     "sha256":  "0F05FFAA2DE7A405833696EE4B515B78A737300D02DF7CDD390994E85D54D341",
                      "fileName":  "Astro Launcher.exe",
-                     "releaseNotes":  "Adds trusted macro download fallback, missing-offset recovery and specific startup diagnostics.",
-                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.5/Astro-Launcher-2.0.5.exe",
-                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.5/Astro-Launcher-2.0.5.exe"
+                     "releaseNotes":  "Moves signed catalog checks to GitHub first, with Cloudflare fallback, removing Vercel catalog polling. Discord verification still requires the website backend.",
+                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.6/Astro-Launcher-2.0.6.exe",
+                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.6/Astro-Launcher-2.0.6.exe"
                  },
     "macros":  [
                    {
