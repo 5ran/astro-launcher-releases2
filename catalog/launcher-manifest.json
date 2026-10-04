@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-03T10:44:13Z",
+    "generatedAt":  "2026-10-04T10:00:48Z",
     "launcher":  {
                      "latestVersion":  "2.0.6",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.6.exe",
@@ -17,20 +17,20 @@
                        "shortName":  "GPO",
                        "description":  "Automate trick-or-treating in Grand Piece.",
                        "category":  "Event macro",
-                       "latestVersion":  "1.0.3",
-                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/grand-piece/1.0.3/Grand-Piece-1.0.3.exe",
-                       "sha256":  "E16251B76E879728DB5004BF63DC7D22246797BEEB55063286508542F5F7CF94",
+                       "latestVersion":  "1.0.4",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/grand-piece/1.0.4/Grand-Piece-1.0.4.exe",
+                       "sha256":  "38B67081B43A3F83F5DDDD2041392F72624CCE4AB91F5D8B7A07F92BF1E339DB",
                        "fileName":  "Grand Piece.exe",
                        "imageUrl":  "https://ae-storefront.vercel.app/launcher/grand-piece.png",
                        "accentColor":  "#46D982",
-                       "releaseNotes":  "Latest Grand Piece build.",
+                       "releaseNotes":  "Latest supplied Grand Piece build.",
                        "featured":  true,
                        "sortOrder":  11,
                        "legacyFileNames":  [
                                                "GpoTrickOrTreat.exe"
                                            ],
-                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/grand-piece-v1.0.3/Grand-Piece-1.0.3.exe",
-                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/grand-piece/1.0.3/Grand-Piece-1.0.3.exe"
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/grand-piece-v1.0.4/Grand-Piece-1.0.4.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/grand-piece/1.0.4/Grand-Piece-1.0.4.exe"
                    },
                    {
                        "id":  "anime-expeditions",
