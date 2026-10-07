@@ -7,5 +7,14 @@
     "GuiObject.BorderColor3": 1340,
     "GuiObject.ZIndex": 1428,
     "Model.WorldPivotData": 232
+  },
+  "version-cec3ad5889b447cf": {
+    "GuiBase2D.AbsoluteSize": 260,
+    "GuiBase2D.AbsolutePosition": 252,
+    "GuiBase2D.AbsoluteRotation": 216,
+    "GuiObject.BorderColor3": 1340,
+    "GuiObject.ZIndex": 1428,
+    "GuiObject.ImageColor3": 2720,
+    "Model.WorldPivotData": 232
   }
 }
