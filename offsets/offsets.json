@@ -257,7 +257,7 @@
       "HumanoidStateID": 32,
       "FloorMaterial": 372,
       "TargetPoint": 316,
-      "PlatformStatePointer": 346579494
+      "PlatformStatePointer": 882115890
     },
     "Seat": {
       "Occupant": 520
@@ -550,6 +550,6 @@
   },
   "Astro Verification": {
     "Version": "version-cec3ad5889b447cf",
-    "Verified": false
+    "Verified": true
   }
 }
