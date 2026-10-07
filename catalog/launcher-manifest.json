@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-07T23:14:21Z",
+    "generatedAt":  "2026-10-07T23:38:12Z",
     "launcher":  {
-                     "latestVersion":  "2.0.7",
-                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.7.exe",
-                     "sha256":  "2085F666A8788359F4A8FE23F7B30DBE08A7D30B12F1ED4CDD418671E35F7AB7",
+                     "latestVersion":  "2.0.8",
+                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.8.exe",
+                     "sha256":  "7E21DDF5D2647A1E95D7CA929783A4330B58F8DB7B30EE39ABDBD15133B0EB79",
                      "fileName":  "Astro Launcher.exe",
-                     "releaseNotes":  "Keeps offsets per Roblox build, requires a matching version, and supports direct unverified Theo offsets while awaiting maintainer approval.",
-                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.7/Astro-Launcher-2.0.7.exe",
-                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.7/Astro-Launcher-2.0.7.exe"
+                     "releaseNotes":  "Improves Roblox build detection for standard and supported custom installations, and clarifies missing-build offset status while preserving exact-version launch checks.",
+                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.8/Astro-Launcher-2.0.8.exe",
+                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.8/Astro-Launcher-2.0.8.exe"
                  },
     "macros":  [
                    {
