@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-06T12:57:16Z",
+    "generatedAt":  "2026-10-07T19:51:11Z",
     "launcher":  {
-                     "latestVersion":  "2.0.6",
-                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.6.exe",
-                     "sha256":  "0F05FFAA2DE7A405833696EE4B515B78A737300D02DF7CDD390994E85D54D341",
+                     "latestVersion":  "2.0.7",
+                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.7.exe",
+                     "sha256":  "2085F666A8788359F4A8FE23F7B30DBE08A7D30B12F1ED4CDD418671E35F7AB7",
                      "fileName":  "Astro Launcher.exe",
-                     "releaseNotes":  "Moves signed catalog checks to GitHub first, with Cloudflare fallback, removing Vercel catalog polling. Discord verification still requires the website backend.",
-                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.6/Astro-Launcher-2.0.6.exe",
-                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.6/Astro-Launcher-2.0.6.exe"
+                     "releaseNotes":  "Keeps offsets per Roblox build, requires a matching version, and supports direct unverified Theo offsets while awaiting maintainer approval.",
+                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.7/Astro-Launcher-2.0.7.exe",
+                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.7/Astro-Launcher-2.0.7.exe"
                  },
     "macros":  [
                    {
