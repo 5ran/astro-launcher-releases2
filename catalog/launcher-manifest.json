@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-07T23:38:12Z",
+    "generatedAt":  "2026-10-08T05:56:41Z",
     "launcher":  {
                      "latestVersion":  "2.0.8",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.8.exe",
@@ -59,9 +59,9 @@
                        "shortName":  "F",
                        "description":  "Fish, appraise, track hunts and use focused utility add-ons for Fisch.",
                        "category":  "Fishing macro",
-                       "latestVersion":  "1.1.24",
-                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/fisch/1.1.24/Fisch-1.1.24.exe",
-                       "sha256":  "90935F38BB64714DE50AA3D180246901AC64D552E41936ACD12E70A796ED411F",
+                       "latestVersion":  "1.1.25",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/fisch/1.1.25/Fisch-1.1.25.exe",
+                       "sha256":  "C071106A3EDFBED213DD681F1DDE8F59DC2569ECB8291C502C221F4B915711AA",
                        "fileName":  "Fisch.exe",
                        "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/fisch.png",
                        "accentColor":  "#46D982",
@@ -72,8 +72,8 @@
                                                "Fisch.exe",
                                                "Fisch-Lullaby.exe"
                                            ],
-                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/fisch-v1.1.24/Fisch-1.1.24.exe",
-                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/fisch/1.1.24/Fisch-1.1.24.exe"
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/fisch-v1.1.25/Fisch-1.1.25.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/fisch/1.1.25/Fisch-1.1.25.exe"
                    },
                    {
                        "id":  "clean-and-dig",
