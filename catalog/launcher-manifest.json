@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-09T06:03:09Z",
+    "generatedAt":  "2026-10-10T11:40:17Z",
     "launcher":  {
                      "latestVersion":  "2.0.8",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.8.exe",
@@ -11,6 +11,27 @@
                      "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.8/Astro-Launcher-2.0.8.exe"
                  },
     "macros":  [
+                   {
+                       "id":  "anime-zero",
+                       "name":  "Anime Zero",
+                       "shortName":  "AZ",
+                       "description":  "Macro for Anime Zero.",
+                       "category":  "Game macro",
+                       "latestVersion":  "1.0.0",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/anime-zero/1.0.0/Anime-Zero-1.0.0.exe",
+                       "sha256":  "F9A0715558FA24BDB9A391D51BD94CB8FC4CC5EBCBB1C10019E24A21B59C271B",
+                       "fileName":  "AnimeZero.exe",
+                       "imageUrl":  "https://ae-storefront.vercel.app/launcher/anime-zero.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Initial Anime Zero release.",
+                       "featured":  true,
+                       "sortOrder":  12,
+                       "legacyFileNames":  [
+                                               "AnimeZero.exe"
+                                           ],
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/anime-zero-v1.0.0/Anime-Zero-1.0.0.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/anime-zero/1.0.0/Anime-Zero-1.0.0.exe"
+                   },
                    {
                        "id":  "grand-piece",
                        "name":  "Grand Piece",
