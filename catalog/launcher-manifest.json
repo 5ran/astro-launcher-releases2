@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-10T11:40:17Z",
+    "generatedAt":  "2026-10-11T03:34:42Z",
     "launcher":  {
                      "latestVersion":  "2.0.8",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.8.exe",
@@ -11,6 +11,27 @@
                      "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.8/Astro-Launcher-2.0.8.exe"
                  },
     "macros":  [
+                   {
+                       "id":  "a-universal-time",
+                       "name":  "A Universal Time",
+                       "shortName":  "AUT",
+                       "description":  "Macro for A Universal Time.",
+                       "category":  "Game macro",
+                       "latestVersion":  "1.0.0",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/a-universal-time/1.0.0/A-Universal-Time-1.0.0.exe",
+                       "sha256":  "3F9E4F6875431D749EB601465582595303CC709F7B6AAECFFFCA25592E676F05",
+                       "fileName":  "UniversalTime.exe",
+                       "imageUrl":  "https://ae-storefront.vercel.app/launcher/a-universal-time.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Initial A Universal Time release.",
+                       "featured":  true,
+                       "sortOrder":  13,
+                       "legacyFileNames":  [
+                                               "UniversalTime.exe"
+                                           ],
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/a-universal-time-v1.0.0/A-Universal-Time-1.0.0.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/a-universal-time/1.0.0/A-Universal-Time-1.0.0.exe"
+                   },
                    {
                        "id":  "anime-zero",
                        "name":  "Anime Zero",
