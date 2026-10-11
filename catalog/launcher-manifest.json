@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-11T03:34:42Z",
+    "generatedAt":  "2026-10-11T05:13:22Z",
     "launcher":  {
                      "latestVersion":  "2.0.8",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.8.exe",
@@ -11,6 +11,27 @@
                      "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.8/Astro-Launcher-2.0.8.exe"
                  },
     "macros":  [
+                   {
+                       "id":  "scrooms",
+                       "name":  "Scrooms",
+                       "shortName":  "SC",
+                       "description":  "Macro for Scrooms.",
+                       "category":  "Game macro",
+                       "latestVersion":  "1.0.0",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/scrooms/1.0.0/Scrooms-1.0.0.exe",
+                       "sha256":  "A8E2AF3941B5127373E59D31B3350073B40694DAC79DA0FF42AD97B2A7F1E61F",
+                       "fileName":  "Scrooms.exe",
+                       "imageUrl":  "https://ae-storefront.vercel.app/launcher/scrooms.png",
+                       "accentColor":  "#46D982",
+                       "releaseNotes":  "Initial Scrooms release.",
+                       "featured":  true,
+                       "sortOrder":  14,
+                       "legacyFileNames":  [
+                                               "Scrooms.exe"
+                                           ],
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/scrooms-v1.0.0/Scrooms-1.0.0.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/scrooms/1.0.0/Scrooms-1.0.0.exe"
+                   },
                    {
                        "id":  "a-universal-time",
                        "name":  "A Universal Time",
