@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-12T03:56:57Z",
+    "generatedAt":  "2026-10-12T04:57:35Z",
     "launcher":  {
                      "latestVersion":  "2.0.9",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.9.exe",
@@ -59,20 +59,21 @@
                        "shortName":  "AZ",
                        "description":  "Macro for Anime Zero.",
                        "category":  "Game macro",
-                       "latestVersion":  "1.0.0",
-                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/anime-zero/1.0.0/Anime-Zero-1.0.0.exe",
-                       "sha256":  "F9A0715558FA24BDB9A391D51BD94CB8FC4CC5EBCBB1C10019E24A21B59C271B",
+                       "latestVersion":  "1.0.1",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/anime-zero/1.0.1/Anime-Zero-1.0.1.exe",
+                       "sha256":  "39D5DE64102901726C407DE620F5EBFE745483F4444F956D75AB14638B1548EF",
                        "fileName":  "AnimeZero.exe",
                        "imageUrl":  "https://ae-storefront.vercel.app/launcher/anime-zero.png",
                        "accentColor":  "#46D982",
-                       "releaseNotes":  "Initial Anime Zero release.",
+                       "releaseNotes":  "Updated Anime Zero to the latest supplied build dated October 12, 2026.",
                        "featured":  true,
                        "sortOrder":  12,
                        "legacyFileNames":  [
                                                "AnimeZero.exe"
                                            ],
-                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/anime-zero-v1.0.0/Anime-Zero-1.0.0.exe",
-                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/anime-zero/1.0.0/Anime-Zero-1.0.0.exe"
+                       "updatedAt":  "2026-10-12T04:57:35Z",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/anime-zero-v1.0.1/Anime-Zero-1.0.1.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/anime-zero/1.0.1/Anime-Zero-1.0.1.exe"
                    },
                    {
                        "id":  "grand-piece",
