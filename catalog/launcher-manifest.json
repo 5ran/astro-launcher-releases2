@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-12T02:40:25Z",
+    "generatedAt":  "2026-10-12T03:56:57Z",
     "launcher":  {
-                     "latestVersion":  "2.0.8",
-                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.8.exe",
-                     "sha256":  "7E21DDF5D2647A1E95D7CA929783A4330B58F8DB7B30EE39ABDBD15133B0EB79",
+                     "latestVersion":  "2.0.9",
+                     "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.9.exe",
+                     "sha256":  "53BD5C1B188119BB73943210C2EAFE8EF9CB6990CA3DA9700CDAF3249581DF68",
                      "fileName":  "Astro Launcher.exe",
-                     "releaseNotes":  "Improves Roblox build detection for standard and supported custom installations, and clarifies missing-build offset status while preserving exact-version launch checks.",
-                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.8/Astro-Launcher-2.0.8.exe",
-                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.8/Astro-Launcher-2.0.8.exe"
+                     "releaseNotes":  "Halloween logo and subtle seasonal styling, aligned sidebar indicators, improved layout and contrast, and newest-first featured macro and library ordering.",
+                     "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/astro-launcher-v2.0.9/Astro-Launcher-2.0.9.exe",
+                     "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/launcher/2.0.9/Astro-Launcher-2.0.9.exe"
                  },
     "macros":  [
                    {
