@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-11T05:13:22Z",
+    "generatedAt":  "2026-10-12T02:40:25Z",
     "launcher":  {
                      "latestVersion":  "2.0.8",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.8.exe",
@@ -293,20 +293,20 @@
                        "shortName":  "PS2",
                        "description":  "Automate fishing, catches and recasting in Project Slayers 2.",
                        "category":  "Fishing macro",
-                       "latestVersion":  "1.0.14",
-                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/project-slayers-2/1.0.14/Project-Slayers-2-1.0.14.exe",
-                       "sha256":  "61015E62F85D48237696258764CD12F66E85021E36C9E502201A585EC9995782",
+                       "latestVersion":  "1.0.15",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/project-slayers-2/1.0.15/Project-Slayers-2-1.0.15.exe",
+                       "sha256":  "30A8F37658137842AAB4AC9728CD31B173B4591D4D9C4394493408B36E185608",
                        "fileName":  "Project Slayers 2.exe",
                        "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/project-slayers-2.png",
                        "accentColor":  "#46D982",
-                       "releaseNotes":  "Updated Project Slayers 2 to the latest supplied build dated October 2, 2026.",
+                       "releaseNotes":  "Updated Project Slayers 2 to the latest supplied build dated October 12, 2026.",
                        "featured":  true,
                        "sortOrder":  10,
                        "legacyFileNames":  [
                                                "SlayerFishing.exe"
                                            ],
-                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/project-slayers-2-v1.0.14/Project-Slayers-2-1.0.14.exe",
-                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/project-slayers-2/1.0.14/Project-Slayers-2-1.0.14.exe"
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/project-slayers-2-v1.0.15/Project-Slayers-2-1.0.15.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/project-slayers-2/1.0.15/Project-Slayers-2-1.0.15.exe"
                    }
                ]
 }
