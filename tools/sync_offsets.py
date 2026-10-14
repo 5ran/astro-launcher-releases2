@@ -18,6 +18,7 @@ def select_snapshot(data, corrections, verified_versions, approved_dir):
             raise ValueError("Invalid approved snapshot status")
         # Validate shape without applying mutable corrections to approved bytes.
         corrected(approved, {}, verified_versions)
+        validate_compatibility(approved)
         return approved
     # Legacy approvals retain their established corrections. New unapproved
     # builds remain Theo-only and receive no ad-hoc merged fields.
@@ -25,6 +26,29 @@ def select_snapshot(data, corrections, verified_versions, approved_dir):
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SOURCES = ("https://offsets.imtheo.lol/offsets.json", "https://offsets.femboythighs.org/offsets.json")
+
+def validate_compatibility(data):
+    contract = data.get("Astro Compatibility")
+    if contract is None:
+        return  # Historical approved snapshots predate the compatibility schema.
+    if contract.get("Schema") != 1 or not isinstance(contract.get("Aliases"), dict):
+        raise ValueError("Invalid compatibility contract")
+    groups = data["Offsets"]
+    if next(iter(groups), None) != "__AstroLegacyAliases":
+        raise ValueError("Compatibility aliases must be first for existing EXEs")
+    qualified = {}
+    first = {}
+    for group, fields in groups.items():
+        for name, value in fields.items():
+            first.setdefault(name.lower(), value)
+            if group != "__AstroLegacyAliases":
+                key = (group + "." + name).lower()
+                if key in qualified and qualified[key] != value:
+                    raise ValueError("Conflicting qualified offset")
+                qualified[key] = value
+    for name, target in contract["Aliases"].items():
+        if target.lower() not in qualified or first.get(name.lower()) != qualified[target.lower()]:
+            raise ValueError("Broken legacy alias: " + name)
 
 def corrected(data, corrections, verified_versions=()):
     version = data.get("Roblox Version", "")
