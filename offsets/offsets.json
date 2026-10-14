@@ -257,7 +257,7 @@
       "HumanoidStateID": 32,
       "FloorMaterial": 384,
       "TargetPoint": 328,
-      "PlatformStatePointer": 346629693
+      "PlatformStatePointer": 346646017
     },
     "Seat": {
       "Occupant": 520
@@ -334,7 +334,8 @@
     },
     "Model": {
       "PrimaryPart": 584,
-      "Scale": 308
+      "Scale": 308,
+      "WorldPivotData": 232
     },
     "SpecialMesh": {
       "Scale": 180,
@@ -372,10 +373,11 @@
       "LayoutOrder": 1388,
       "ZIndex": 1428,
       "BackgroundTransparency": 1340,
-      "Rotation": 216
+      "Rotation": 216,
+      "ImageColor3": 2792
     },
     "GuiBase2D": {
-      "AbsoluteSize": 0,
+      "AbsoluteSize": 260,
       "AbsolutePosition": 252,
       "AbsoluteRotation": 216
     },
@@ -548,6 +550,6 @@
   },
   "Astro Verification": {
     "Version": "version-7a0c6d10fcb34a2c",
-    "Verified": false
+    "Verified": true
   }
 }
