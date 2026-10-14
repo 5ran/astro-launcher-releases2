@@ -1,29 +1,29 @@
 {
   "Source": "https://offsets.imtheo.lol",
-  "Roblox Version": "version-cec3ad5889b447cf",
+  "Roblox Version": "version-7a0c6d10fcb34a2c",
   "Dumper Version": "2.2.4",
   "Dumped With": "RbxDumperV2",
-  "Dumped At": "07:23 06/10/2026",
+  "Dumped At": "06:33 13/10/2026",
   "Source Code": "https://git.imtheo.lol/theo/RbxDumperV2",
   "Discord": "https://offsets.imtheo.lol/discord",
   "Total Offsets": 392,
   "Offsets": {
     "TaskScheduler": {
-      "Pointer": 146247976,
+      "Pointer": 148303944,
       "JobStart": 200,
       "JobEnd": 208,
       "JobName": 24,
       "MaxFPS": 176
     },
     "VisualEngine": {
-      "Pointer": 140865088,
+      "Pointer": 142909616,
       "Dimensions": 2832,
       "ViewMatrix": 432,
-      "RenderView": 3120,
+      "RenderView": 3128,
       "FakeDataModel": 2800
     },
     "FakeDataModel": {
-      "Pointer": 146603344,
+      "Pointer": 148659456,
       "RealDataModel": 504
     },
     "RenderView": {
@@ -83,8 +83,8 @@
       "PrimitiveCount": 1048
     },
     "RunService": {
-      "HeartbeatTask": 25400,
-      "HeartbeatFPS": 225
+      "HeartbeatTask": 224,
+      "HeartbeatFPS": 192
     },
     "RenderJob": {
       "RenderView": 480,
@@ -98,9 +98,9 @@
       "CurrentCamera": 1192
     },
     "World": {
-      "Gravity": 548,
-      "worldStepsPerSec": 1856,
-      "FallenPartsDestroyHeight": 536,
+      "Gravity": 544,
+      "worldStepsPerSec": 2176,
+      "FallenPartsDestroyHeight": 532,
       "AirProperties": 568,
       "Primitives": 712
     },
@@ -151,7 +151,7 @@
       "Looped": 301
     },
     "SpawnLocation": {
-      "AllowTeamChangeOnTouch": 480,
+      "AllowTeamChangeOnTouch": 61,
       "Enabled": 481,
       "Neutral": 482,
       "ForcefieldDuration": 472,
@@ -204,60 +204,60 @@
       "LocalPlayer": 288,
       "UserId": 192,
       "DisplayName": 296,
-      "HealthDisplayDistance": 900,
-      "NameDisplayDistance": 916,
-      "ModelInstance": 648,
-      "Team": 712,
-      "TeamColor": 928,
+      "HealthDisplayDistance": 916,
+      "NameDisplayDistance": 932,
+      "ModelInstance": 664,
+      "Team": 728,
+      "TeamColor": 944,
       "LocaleId": 264,
-      "AccountAge": 844,
-      "MinZoomDistance": 860,
-      "MaxZoomDistance": 856,
-      "CameraMode": 864,
-      "Mouse": 4616
+      "AccountAge": 860,
+      "MinZoomDistance": 876,
+      "MaxZoomDistance": 872,
+      "CameraMode": 880,
+      "Mouse": 4632
     },
     "Team": {
       "BrickColor": 168
     },
     "Humanoid": {
-      "Health": 384,
-      "MaxHealth": 408,
-      "Walkspeed": 448,
-      "WalkspeedCheck": 924,
-      "JumpPower": 404,
-      "JumpHeight": 400,
-      "HipHeight": 388,
-      "MaxSlopeAngle": 412,
+      "Health": 396,
+      "MaxHealth": 420,
+      "Walkspeed": 460,
+      "WalkspeedCheck": 932,
+      "JumpPower": 416,
+      "JumpHeight": 412,
+      "HipHeight": 400,
+      "MaxSlopeAngle": 424,
       "SeatPart": 248,
-      "HumanoidRootPart": 1120,
+      "HumanoidRootPart": 1128,
       "CameraOffset": 280,
-      "HealthDisplayDistance": 376,
-      "NameDisplayDistance": 416,
-      "DisplayDistanceType": 368,
-      "HealthDisplayType": 380,
-      "NameOcclusion": 420,
+      "HealthDisplayDistance": 388,
+      "NameDisplayDistance": 428,
+      "DisplayDistanceType": 380,
+      "HealthDisplayType": 392,
+      "NameOcclusion": 432,
       "DisplayName": 168,
-      "MoveDirection": 304,
-      "RigType": 432,
-      "Jump": 458,
-      "Sit": 461,
-      "PlatformStand": 460,
-      "UseJumpPower": 464,
-      "AutomaticScalingEnabled": 454,
-      "BreakJointsOnDeath": 455,
-      "EvaluateStateMachine": 456,
-      "RequiresNeck": 461,
-      "AutoJumpEnabled": 452,
-      "AutoRotate": 453,
-      "IsWalking": 2599,
-      "MoveToPoint": 340,
+      "MoveDirection": 316,
+      "RigType": 444,
+      "Jump": 471,
+      "Sit": 474,
+      "PlatformStand": 473,
+      "UseJumpPower": 477,
+      "AutomaticScalingEnabled": 466,
+      "BreakJointsOnDeath": 467,
+      "EvaluateStateMachine": 468,
+      "RequiresNeck": 474,
+      "AutoJumpEnabled": 464,
+      "AutoRotate": 465,
+      "IsWalking": 2607,
+      "MoveToPoint": 352,
       "MoveToPart": 264,
-      "WalkTimer": 0,
-      "HumanoidState": 2216,
+      "WalkTimer": 1008,
+      "HumanoidState": 2224,
       "HumanoidStateID": 32,
-      "FloorMaterial": 372,
-      "TargetPoint": 316,
-      "PlatformStatePointer": 819585884
+      "FloorMaterial": 384,
+      "TargetPoint": 328,
+      "PlatformStatePointer": 346629693
     },
     "Seat": {
       "Occupant": 520
@@ -270,7 +270,7 @@
       "TurnSpeed": 552
     },
     "StatsItem": {
-      "Value": 1504
+      "Value": 384
     },
     "Tool": {
       "Tooltip": 1112,
@@ -278,7 +278,7 @@
       "Grip": 1180,
       "Enabled": 1193,
       "CanBeDropped": 1192,
-      "ManualActivationOnly": 1194,
+      "ManualActivationOnly": 837,
       "RequiresHandle": 1195
     },
     "Clothing": {
@@ -302,22 +302,22 @@
       "ViewportSize": 716
     },
     "BasePart": {
-      "Primitive": 376,
+      "Primitive": 384,
       "Transparency": 288,
-      "Color3": 408,
+      "Color3": 428,
       "Shape": 424,
-      "Massless": 295,
-      "CastShadow": 293,
-      "Locked": 294,
+      "Massless": 298,
+      "CastShadow": 296,
+      "Locked": 297,
       "Reflectance": 252
     },
     "Primitive": {
       "Position": 212,
       "Validate": 6,
-      "Owner": 528,
-      "Size": 444,
+      "Owner": 536,
+      "Size": 452,
       "Rotation": 176,
-      "Flags": 438,
+      "Flags": 446,
       "Material": 0,
       "AssemblyLinearVelocity": 224,
       "AssemblyAngularVelocity": 236
@@ -334,8 +334,7 @@
     },
     "Model": {
       "PrimaryPart": 584,
-      "Scale": 308,
-      "WorldPivotData": 232
+      "Scale": 308
     },
     "SpecialMesh": {
       "Scale": 180,
@@ -373,11 +372,10 @@
       "LayoutOrder": 1388,
       "ZIndex": 1428,
       "BackgroundTransparency": 1340,
-      "Rotation": 216,
-      "ImageColor3": 2720
+      "Rotation": 216
     },
     "GuiBase2D": {
-      "AbsoluteSize": 260,
+      "AbsoluteSize": 0,
       "AbsolutePosition": 252,
       "AbsoluteRotation": 216
     },
@@ -534,10 +532,10 @@
     "LRUNode": {
       "Next": 0,
       "AssetID": 16,
-      "CachedItem": 64
+      "CachedItem": 56
     },
     "CachedItem": {
-      "FileMeshData": 64
+      "FileMeshData": 40
     },
     "FileMeshData": {
       "AABBMin": 384,
@@ -549,7 +547,7 @@
     }
   },
   "Astro Verification": {
-    "Version": "version-cec3ad5889b447cf",
-    "Verified": true
+    "Version": "version-7a0c6d10fcb34a2c",
+    "Verified": false
   }
 }
