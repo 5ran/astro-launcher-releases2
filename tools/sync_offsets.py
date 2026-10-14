@@ -4,6 +4,25 @@ import pathlib
 import re
 import urllib.request
 
+def select_snapshot(data, corrections, verified_versions, approved_dir):
+    """Pinned approved full snapshots beat live upstream for the exact build."""
+    version = data.get("Roblox Version", "")
+    if not isinstance(version, str) or not re.fullmatch(r"version-[0-9a-f]{16,64}", version):
+        raise ValueError("Invalid Roblox version")
+    path = approved_dir / (version + ".json")
+    if path.exists():
+        approved = json.loads(path.read_text(encoding="utf-8"))
+        if approved.get("Roblox Version") != version or version not in verified_versions:
+            raise ValueError("Approved snapshot/build mismatch")
+        if approved.get("Astro Verification") != {"Version": version, "Verified": True}:
+            raise ValueError("Invalid approved snapshot status")
+        # Validate shape without applying mutable corrections to approved bytes.
+        corrected(approved, {}, verified_versions)
+        return approved
+    # Legacy approvals retain their established corrections. New unapproved
+    # builds remain Theo-only and receive no ad-hoc merged fields.
+    return corrected(data, corrections if version in verified_versions else {}, verified_versions)
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 SOURCES = ("https://offsets.imtheo.lol/offsets.json", "https://offsets.femboythighs.org/offsets.json")
 
@@ -36,10 +55,25 @@ def main():
                 raw = response.read(2_000_001)
             if len(raw) > 2_000_000:
                 raise ValueError("Oversized response")
-            data = corrected(json.loads(raw), corrections, verified_versions)
+            data = select_snapshot(json.loads(raw), corrections, verified_versions, ROOT / "offsets/approved")
             output = ROOT / "offsets/offsets.json"
             temporary = output.with_suffix(".tmp")
             temporary.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+            # Preserve the previous build before moving the latest pointer.
+            # Already archived revisions must not be replaced by stale latest data.
+            if output.exists():
+                previous = json.loads(output.read_text(encoding="utf-8"))
+                previous_version = previous.get("Roblox Version", "")
+                if isinstance(previous_version, str) and re.fullmatch(r"version-[0-9a-f]{16,64}", previous_version):
+                    archive = ROOT / "offsets/versions" / previous_version / "offsets.json"
+                    archive.parent.mkdir(parents=True, exist_ok=True)
+                    if not archive.exists():
+                        archive.write_text(json.dumps(previous, indent=2) + "\n", encoding="utf-8")
+            archive = ROOT / "offsets/versions" / data["Roblox Version"] / "offsets.json"
+            archive.parent.mkdir(parents=True, exist_ok=True)
+            archive_temp = archive.with_suffix(".tmp")
+            archive_temp.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+            archive_temp.replace(archive)
             temporary.replace(output)
             print("Validated snapshot:", data["Roblox Version"])
             return
