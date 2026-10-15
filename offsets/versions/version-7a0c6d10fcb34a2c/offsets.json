@@ -3065,17 +3065,16 @@
     },
     "PlayerConfigurer": {
       "Pointer": 0
+    },
+    "CatchRegistry": {
+      "ContextStates": 520,
+      "StateEntry": 40,
+      "StateGlobal": 80,
+      "GlobalMainThread": 96,
+      "GlobalRegistry": 1568
     }
   },
-  "Total Offsets": 2314,
-  "Astro Verification": {
-    "Version": "version-7a0c6d10fcb34a2c",
-    "Verified": true
-  },
-  "Astro Review": {
-    "Coverage": "Owner-approved additive merged collection. Six UI fields dynamically validated on this exact build; ImageColor3=2792. WorldPivotData=232 is an owner-accepted tagged-pointer candidate, five cycles in one process, not proven current-build storage provenance. Existing published keys and values are preserved; disputed alternatives retained in local review but not selected. Additional source-derived fields have schema/provenance review only, not exhaustive gameplay validation. Zero placeholders remain unavailable.",
-    "Meaning": "Maintainer approved; not exhaustive live validation"
-  },
+  "Total Offsets": 2319,
   "Astro Compatibility": {
     "Schema": 1,
     "Aliases": {
@@ -3416,6 +3415,14 @@
       "Faces": "FileMeshData.Faces",
       "FacesEnd": "FileMeshData.FacesEnd"
     },
-    "Data Fields": 1978
+    "Data Fields": 1983
+  },
+  "Astro Verification": {
+    "Version": "version-7a0c6d10fcb34a2c",
+    "Verified": true
+  },
+  "Astro Review": {
+    "Coverage": "Owner-approved additive merged collection. Six UI fields dynamically validated on this exact build; ImageColor3=2792. WorldPivotData=232 is an owner-accepted tagged-pointer candidate, five cycles in one process, not proven current-build storage provenance. Existing published keys and values are preserved; disputed alternatives retained in local review but not selected. Additional source-derived fields have schema/provenance review only, not exhaustive gameplay validation. Zero placeholders remain unavailable. Additive CatchRegistry route: five offsets validated on this build across prior Roblox processes; latest PID 9096 confirmed state type 10, registry type 7 and main-thread backlink, but no active catch anchor in that check. 29 related C# tests passed. User authorized publishing the additions. This is not exhaustive validation of all fields.",
+    "Meaning": "Maintainer approved; not exhaustive live validation"
   }
 }
