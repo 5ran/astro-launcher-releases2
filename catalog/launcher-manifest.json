@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-10-14T06:44:18Z",
+    "generatedAt":  "2026-10-15T02:36:57Z",
     "launcher":  {
                      "latestVersion":  "2.0.9",
                      "downloadUrl":  "https://ae-storefront.vercel.app/downloads/launcher/Astro-Launcher-2.0.9.exe",
@@ -124,21 +124,22 @@
                        "shortName":  "F",
                        "description":  "Fish, appraise, track hunts and use focused utility add-ons for Fisch.",
                        "category":  "Fishing macro",
-                       "latestVersion":  "1.1.26",
-                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/fisch/1.1.26/Fisch-1.1.26.exe",
-                       "sha256":  "2B3D32510D89A403FF0E69694FDBDE23C18587DDB6DA3A9BEDAF88F782C3363E",
+                       "latestVersion":  "1.1.27",
+                       "downloadUrl":  "https://ae-storefront.vercel.app/downloads/macros/fisch/1.1.27/Fisch-1.1.27.exe",
+                       "sha256":  "4B1509D8ACAB4A1A6B9D8523E1B16BC426540A648E03B88FB78C71FE6BC4698D",
                        "fileName":  "Fisch.exe",
                        "imageUrl":  "https://astro-releases.ethanbro2026.workers.dev/images/fisch.png",
                        "accentColor":  "#46D982",
-                       "releaseNotes":  "Latest supplied Fisch build.",
+                       "releaseNotes":  "Updated Fisch to the supplied October 15, 2026 build.",
                        "featured":  true,
                        "sortOrder":  2,
                        "legacyFileNames":  [
                                                "Fisch.exe",
                                                "Fisch-Lullaby.exe"
                                            ],
-                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/fisch-v1.1.26/Fisch-1.1.26.exe",
-                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/fisch/1.1.26/Fisch-1.1.26.exe"
+                       "updatedAt":  "2026-10-15T02:36:57Z",
+                       "primaryDownloadUrl":  "https://github.com/5ran/astro-launcher-releases2/releases/download/fisch-v1.1.27/Fisch-1.1.27.exe",
+                       "fallbackDownloadUrl":  "https://astro-releases.ethanbro2026.workers.dev/macros/fisch/1.1.27/Fisch-1.1.27.exe"
                    },
                    {
                        "id":  "clean-and-dig",
