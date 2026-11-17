@@ -1,29 +1,29 @@
 {
   "Source": "https://offsets.imtheo.lol",
-  "Roblox Version": "version-4ea8e85481e34f46",
+  "Roblox Version": "version-2c6fd5e09aaf4cfa",
   "Dumper Version": "2.2.5",
   "Dumped With": "RbxDumperV2",
-  "Dumped At": "08:13 10/11/2026",
+  "Dumped At": "07:30 17/11/2026",
   "Source Code": "https://git.imtheo.lol/theo/RbxDumperV2",
   "Discord": "https://offsets.imtheo.lol/discord",
   "Total Offsets": 394,
   "Offsets": {
     "TaskScheduler": {
-      "Pointer": 150070280,
+      "Pointer": 148528536,
       "JobStart": 200,
       "JobEnd": 208,
       "JobName": 24,
       "MaxFPS": 176
     },
     "VisualEngine": {
-      "Pointer": 144775176,
+      "Pointer": 143223704,
       "Dimensions": 2832,
       "ViewMatrix": 432,
       "RenderView": 3152,
       "FakeDataModel": 2800
     },
     "FakeDataModel": {
-      "Pointer": 150530408,
+      "Pointer": 148988776,
       "RealDataModel": 504
     },
     "RenderView": {
@@ -38,8 +38,8 @@
     "ModuleScript": {
       "IsCoreScript": 0,
       "GUID": 184,
-      "Hash": 840,
-      "ByteCode": 288
+      "Hash": 0,
+      "ByteCode": 0
     },
     "MouseService": {
       "SensitivityPointer": 0,
@@ -59,7 +59,7 @@
       "Parent": 96,
       "ClassDescriptor": 24,
       "ClassName": 8,
-      "ClassBase": 432
+      "ClassBase": 440
     },
     "Misc": {
       "StringLength": 16,
@@ -86,8 +86,8 @@
       "PrimitiveCount": 1072
     },
     "RunService": {
-      "HeartbeatTask": 10184,
-      "HeartbeatFPS": 200
+      "HeartbeatTask": 167480,
+      "HeartbeatFPS": 190
     },
     "RenderJob": {
       "RenderView": 480,
@@ -145,16 +145,16 @@
     },
     "Sound": {
       "SoundId": 176,
-      "RollOffMaxDistance": 272,
-      "RollOffMinDistance": 276,
-      "PlaybackSpeed": 268,
-      "Volume": 288,
+      "RollOffMaxDistance": 256,
+      "RollOffMinDistance": 260,
+      "PlaybackSpeed": 252,
+      "Volume": 272,
       "SoundGroup": 208,
-      "IsPlaying": 304,
-      "Looped": 301
+      "IsPlaying": 280,
+      "Looped": 277
     },
     "SpawnLocation": {
-      "AllowTeamChangeOnTouch": 61,
+      "AllowTeamChangeOnTouch": 472,
       "Enabled": 473,
       "Neutral": 474,
       "ForcefieldDuration": 464,
@@ -217,7 +217,7 @@
       "MinZoomDistance": 884,
       "MaxZoomDistance": 880,
       "CameraMode": 888,
-      "Mouse": 4592
+      "Mouse": 4728
     },
     "Team": {
       "BrickColor": 160
@@ -226,13 +226,13 @@
       "Health": 388,
       "MaxHealth": 416,
       "Walkspeed": 456,
-      "WalkspeedCheck": 932,
+      "WalkspeedCheck": 924,
       "JumpPower": 412,
       "JumpHeight": 408,
       "HipHeight": 392,
       "MaxSlopeAngle": 420,
       "SeatPart": 240,
-      "HumanoidRootPart": 1128,
+      "HumanoidRootPart": 1120,
       "CameraOffset": 272,
       "HealthDisplayDistance": 380,
       "NameDisplayDistance": 424,
@@ -243,24 +243,24 @@
       "MoveDirection": 308,
       "RigType": 440,
       "Jump": 468,
-      "Sit": 471,
-      "PlatformStand": 470,
-      "UseJumpPower": 474,
+      "Sit": 470,
+      "PlatformStand": 469,
+      "UseJumpPower": 473,
       "AutomaticScalingEnabled": 462,
       "BreakJointsOnDeath": 464,
       "EvaluateStateMachine": 465,
-      "RequiresNeck": 471,
+      "RequiresNeck": 470,
       "AutoJumpEnabled": 460,
       "AutoRotate": 461,
-      "IsWalking": 2630,
+      "IsWalking": 2622,
       "MoveToPoint": 344,
       "MoveToPart": 256,
-      "WalkTimer": 1008,
-      "HumanoidState": 2224,
+      "WalkTimer": 0,
+      "HumanoidState": 2216,
       "HumanoidStateID": 32,
       "FloorMaterial": 376,
       "TargetPoint": 320,
-      "PlatformStatePointer": 76936424
+      "PlatformStatePointer": 222486886
     },
     "Seat": {
       "Occupant": 512
@@ -273,7 +273,7 @@
       "TurnSpeed": 544
     },
     "StatsItem": {
-      "Value": 59224
+      "Value": 47421
     },
     "Tool": {
       "Tooltip": 1104,
@@ -317,11 +317,11 @@
     "Primitive": {
       "Position": 212,
       "Validate": 6,
-      "Owner": 536,
+      "Owner": 544,
       "Size": 452,
       "Rotation": 176,
       "Flags": 446,
-      "Material": 590,
+      "Material": 598,
       "AssemblyLinearVelocity": 224,
       "AssemblyAngularVelocity": 236
     },
@@ -366,7 +366,7 @@
       "ScreenGui_Enabled": 1037,
       "Position": 680,
       "Size": 712,
-      "Visible": 1837,
+      "Visible": 1840,
       "Image": 1648,
       "Text": 2608,
       "RichText": 1992,
@@ -408,15 +408,15 @@
       "ColorShift_Top": 208,
       "ExposureCompensation": 268,
       "GeographicLatitude": 284,
-      "LightColor": 324,
-      "GradientTop": 312,
-      "LightDirection": 336,
-      "GradientBottom": 376,
-      "GlobalShadows": 300,
-      "MoonPosition": 364,
-      "SunPosition": 352,
-      "Source": 348,
-      "Sky": 432
+      "LightColor": 332,
+      "GradientTop": 320,
+      "LightDirection": 344,
+      "GradientBottom": 384,
+      "GlobalShadows": 306,
+      "MoonPosition": 372,
+      "SunPosition": 360,
+      "Source": 356,
+      "Sky": 440
     },
     "Sky": {
       "SkyboxBk": 224,
@@ -459,9 +459,9 @@
       "Enabled": 152
     },
     "ColorCorrectionEffect": {
-      "Brightness": 172,
-      "Contrast": 176,
-      "TintColor": 160,
+      "Brightness": 220,
+      "Contrast": 228,
+      "TintColor": 208,
       "Enabled": 152
     },
     "ColorGradingEffect": {
@@ -505,7 +505,7 @@
       "Speed": 188,
       "TimePosition": 192,
       "Looped": 205,
-      "IsPlaying": 2576
+      "IsPlaying": 2624
     },
     "Animator": {
       "ActiveAnimations": 2336
@@ -513,7 +513,7 @@
     "LocalScript": {
       "GUID": 184,
       "Hash": 392,
-      "ByteCode": 376
+      "ByteCode": 0
     },
     "ByteCode": {
       "Size": 40,
@@ -522,7 +522,7 @@
     "Script": {
       "GUID": 184,
       "Hash": 392,
-      "ByteCode": 376
+      "ByteCode": 0
     },
     "MeshContentProvider": {
       "LRUHolder": 192
@@ -551,7 +551,7 @@
     }
   },
   "Astro Verification": {
-    "Version": "version-4ea8e85481e34f46",
+    "Version": "version-2c6fd5e09aaf4cfa",
     "Verified": false
   }
 }
