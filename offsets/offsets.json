@@ -260,7 +260,7 @@
       "HumanoidStateID": 32,
       "FloorMaterial": 376,
       "TargetPoint": 320,
-      "PlatformStatePointer": 819188516
+      "PlatformStatePointer": 53072516
     },
     "Seat": {
       "Occupant": 512
